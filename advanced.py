@@ -59,16 +59,16 @@ ToptoFootTrains.update({'16:00' : Train (640)})
 
 
 
-# testTrain = Train()
-# print (testTrain)
-# print()
-# testTrain.availableSeats = 20
-# print (testTrain)
-# print()
-# testTrain -= 20
-# print (testTrain)
-# print()
-# 
+testTrain = Train()
+print (testTrain)
+print()
+testTrain.availableSeats = 20
+print (testTrain)
+print()
+testTrain -= 20
+print (testTrain)
+print()
+
 # print ('Trains going to the top')
 # for time, train in FoottoTopTrains.items():
 #    print ('Dep. time: ', time, 'Seats available: ', train.availableSeats)
